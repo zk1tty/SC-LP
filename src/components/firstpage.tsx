@@ -116,7 +116,7 @@ export function Firstpage() {
                   </li>
                 </ul>
               </div>
-              <img
+              <Image
                 alt="Features"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
                 height="310"
@@ -133,13 +133,13 @@ export function Firstpage() {
                 <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-gray-800">Comparison</div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">How We Stack Up</h2>
                 <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  See how our SaaS platform compares to the competition and discover why we're the best choice for your
+                  See how our SaaS platform compares to the competition and discover why we&apos; re the best choice for your
                   business.
                 </p>
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
-              <img
+              <Image
                 alt="Comparison"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
                 height="310"
@@ -215,26 +215,7 @@ export function Firstpage() {
   )
 }
 
-function MountainIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-    </svg>
-  )
-}
-
-function ExplorerIcon(props) {
+function ExplorerIcon(props: React.SVGProps<SVGSVGElement>) {
   return(
     <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="#e8eaed"><path d="m260-260 300-140 140-300-300 140-140 300Zm220-180q-17 0-28.5-11.5T440-480q0-17 11.5-28.5T480-520q17 0 28.5 11.5T520-480q0 17-11.5 28.5T480-440Zm0 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg>
   )
